@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first{
+    width: max;
+    height: 350px;
+    background-color: indigo;
+    padding: 0 0 500px 500px;
+}
+
+.bringing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 100px;
+    padding-left: 0px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 10px;
+}
+
+.second{
+    width: max;
+    height: 350px;
+    background-color: beige;
+    
+}
+

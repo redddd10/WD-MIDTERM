@@ -146,7 +146,7 @@ h3{
     grid-template-columns: repeat(2, 1fr);
     padding-right: 200px;
     width: max;
-    height: 350px;
+    height: 100px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkeY0_fAou_d5NCTgrT-Fyk4vLLu3vCFoHKSLFHMfQJjhamZZHcMfmtrxjO-kwKuQins&usqp=CAU);
     background-size: cover;
     background-position: center;
@@ -155,3 +155,26 @@ h3{
     padding: 0 0 650px 550px;
 }
 
+.fifth .right{
+    padding-top: 300px;
+    padding-right: 200px;
+}
+
+.fifth button{
+    border-radius: 20%;
+    border-color: transparent;
+}
+
+.overall{
+    width: 800px;
+    height: 300px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.sixthup{
+    
+}

@@ -8,9 +8,14 @@
 .first{
     width: max;
     height: 350px;
-    background-color: indigo;
-    padding: 0 0 500px 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGW-G_Qd6pgiSB2f12cvsRcbx8JOdHgdAb2XiUyF8rHA&s);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 50vh;
+    padding: 0 0 650px 550px;
 }
+
 
 .bringing{
     display: grid;
@@ -26,14 +31,127 @@
     background-color: white;
     width: 800px;
     height: 300px;
-    border: 10px solid black;
+    border: 7px solid black;
     padding: 10px;
 }
 
 .second{
     width: max;
-    height: 350px;
+    height: 250px;
     background-color: beige;
-    
+}
+
+button:hover{
+    cursor: grab;
+}
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 12px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.leftbring button{
+    background-color: chocolate;
+}
+
+.columnabout img{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 30px;
+}
+h3{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.discover button{
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+.third{
+    width: max;
+    height: 350px;
+    background-color: white;
+    padding-left: 600px;
+    padding-right: 500px;
+}
+
+.third p{
+    font-size: 12px;
+}
+
+.textthird{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftthird{
+    width: 500px;
+    height: 250px;
+}
+
+.rightthird{
+    width: 200px;
+    height: 250px;
+}
+
+.imagethird img{
+    width: 700px;
+    height: 400px;
+}
+
+.how{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.fourth{
+    padding: 100px;
+}
+
+.fourthrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fourthrow img{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.fifth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 200px;
+    width: max;
+    height: 350px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkeY0_fAou_d5NCTgrT-Fyk4vLLu3vCFoHKSLFHMfQJjhamZZHcMfmtrxjO-kwKuQins&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 50vh;
+    padding: 0 0 650px 550px;
 }
 
